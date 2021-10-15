@@ -1,6 +1,6 @@
 
 a, a:hover, a:focus {
-	color: #676D75;
+	color: #17181a;
 }
 
 /* === Navbar === */
@@ -11,13 +11,14 @@ a, a:hover, a:focus {
 	color: #fff;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #363940;
+  /* background-color: #363940; */
+  background-color: white;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #a9a9a9;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav>.active>a {
-	color: #fff !important;
+	color: rgb(17, 16, 16) !important;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
 	color: #a9a9a9;
