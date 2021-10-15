@@ -152,11 +152,12 @@
 	/* Navbar toggle button */
 	.navbar-toggle {
 		margin-top: 18px;
+		background-color: cadetblue;
 		border: none;
 	}
-	.navbar-toggle:hover, .navbar-toggle:focus {
+	/* .navbar-toggle:hover, .navbar-toggle:focus {
 		background-color: rgba(0, 0, 0, 0) !important;
-	}
+	} */
 
 	.navbar-toggle .icon-bar {
 		height: 3px;
@@ -180,6 +181,7 @@
 	}
 	.navbar-inverse .navbar-collapse {
 		background-color: #111;
+		
 	}
 	.navbar-nav > li > a {
 		padding: 10px 0 !important;
@@ -190,6 +192,7 @@
 	}
 	.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		color: #222;
+	
 	}
 	.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
 		color: #CCC;
